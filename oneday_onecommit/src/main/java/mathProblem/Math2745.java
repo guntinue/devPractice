@@ -13,6 +13,6 @@ public class Math2745 {
 
         long bResult = 0L;
 
-        
+
     }
 }
