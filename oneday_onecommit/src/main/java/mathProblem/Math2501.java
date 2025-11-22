@@ -1,4 +1,4 @@
-package math;
+package mathProblem;
 
 
 import java.io.BufferedReader;
