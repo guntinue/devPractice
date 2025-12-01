@@ -14,18 +14,25 @@ public class Math10101 {
 
         int triangle = a + b + c;
 
-        if (triangle == 180) {
-            if(a == b) {
-                if(b == c) {
-                    System.out.println("Equilateral");
-                } else {
-                    System.out.println("Isosceles");
-                }
-            } else if(a != b) {
-                System.out.println("Scalene");
-            }
+        if (triangle != 180) {
+
+            System.out.println("Error");
+
         } else {
-            System.out.println("error");
+
+            if (a == 60 && b == 60 && c == 60) {     // 세 각이 모두 60도인 경우
+
+                System.out.println("Equilateral");
+
+            } else if (a == b|| b == c || a == c) {  // 두 각이 같은 경우
+
+                System.out.println("Isosceles");
+
+            } else {                                 //세각이 모두 다르고 합 180도
+
+                System.out.println("Scalene");
+
+            }
         }
     }
 }
