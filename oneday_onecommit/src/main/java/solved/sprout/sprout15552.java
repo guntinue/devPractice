@@ -3,7 +3,7 @@ package solved.sprout;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class sprout15552 {
+public class sprout15552   {
 
     public static void main(String[] args) throws IOException {
 
